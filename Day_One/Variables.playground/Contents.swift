@@ -13,3 +13,7 @@ print(birthMonth)
 let camelCaseConvention = "practicing!"
 
 print(camelCaseConvention)
+
+var changeableCode = "Haha"
+
+changeableCode = "Nothing funny about my life"

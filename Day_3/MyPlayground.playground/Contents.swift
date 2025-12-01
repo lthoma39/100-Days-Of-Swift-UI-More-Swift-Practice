@@ -27,3 +27,18 @@ print(transactions)
 let faveShows = ["Mr. Robot", "Everybody Hates Chris", "HIMYM"]
 let showsReversed = Array(faveShows.reversed())
 print(showsReversed)
+
+let person = [
+    "name": "Tim",
+    "job": "N/A"
+]
+
+print(person)
+print(person["name"])
+
+print(person["name", default: "unknown"])
+
+var student = [String: Int]()
+student["Tom"] = 15
+
+print(student["Tom", default: -1])

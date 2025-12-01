@@ -42,3 +42,4 @@ var student = [String: Int]()
 student["Tom"] = 15
 
 print(student["Tom", default: -1])
+print(student["Dan"])

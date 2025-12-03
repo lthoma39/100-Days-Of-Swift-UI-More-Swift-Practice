@@ -43,3 +43,26 @@ student["Tom"] = 15
 
 print(student["Tom", default: -1])
 print(student["Dan"])
+
+let people = Set(friends)
+print(people)
+
+var actors = Set<String>()
+actors.insert("Michael B Jordan")
+
+print(actors)
+print(actors.contains("Michael B Jordan"))
+
+enum Status {
+    case Failed
+    case Pending
+    case Success
+}
+print("Your payment is currently \(Status.Pending). Please wait one moment to check for \(Status.Success)")
+
+enum Hours {
+    case One, Two, Three, Four
+}
+
+var time = Hours.Four
+time = .One

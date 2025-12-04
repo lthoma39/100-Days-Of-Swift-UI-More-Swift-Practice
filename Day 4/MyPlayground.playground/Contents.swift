@@ -17,7 +17,7 @@ print(artistIsRetired)
 
 var books: Set<String> = []
 books.insert("IT")
-print(books.contains("IT"))
+print(books.contains("I"))
 
 let a: String
 var b: String

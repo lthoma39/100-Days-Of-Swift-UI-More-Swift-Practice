@@ -16,5 +16,12 @@ for name in ["Tyler", "Rob", "Tom"]{
 for i in stride(from: 0, through: 10, by: 2){
     print(i)
 }
+var i = 0
+
+repeat {
+    print("hi")
+    i += 1
+} while i < 3
+
 var greeting = "Hello, playground"
 
